@@ -17,7 +17,7 @@ const Miembros = () => {
                 <Logo />
             </Row>
             <Row>
-                <Col sm={4} className="justify-content-center">
+                <Col sm={4} className="justify-content-center mb-3">
                     <Card style={{ width: '22rem', margin: 'auto' }}>
                         <Card.Img variant="top" src={miembro1} />
                         <Card.Body>
@@ -33,7 +33,7 @@ const Miembros = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col sm={4} className="justify-content-center">
+                <Col sm={4} className="justify-content-center mb-3">
                     <Card style={{ width: '22rem', margin: 'auto' }}>
                         <Card.Img variant="top" src={miembro2} />
                         <Card.Body>
@@ -51,7 +51,7 @@ const Miembros = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col sm={4} className="justify-content-center">
+                <Col sm={4} className="justify-content-center mb-3">
                     <Card style={{ width: '22rem', margin: 'auto' }}>
                         <Card.Img variant="top" src={miembro3} />
                         <Card.Body>
