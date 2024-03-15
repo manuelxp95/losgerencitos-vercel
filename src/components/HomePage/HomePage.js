@@ -41,9 +41,9 @@ const HomePage = () => {
                         <Card.Body>
                             <Card.Title>Alianza</Card.Title>
                             <Card.Text>
-                                Conoce a los hechiceros que integran a este aquelarre
+                                Uniendo nuestras varitas en un lazo irrompible, encantamos nuestras almas en una alianza mágica
                             </Card.Text>
-                            <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button>
+                            {/* <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button> */}
                         </Card.Body>
                     </Card>
                 </Col>
@@ -54,7 +54,7 @@ const HomePage = () => {
                             <Card.Title>Desafios</Card.Title>
                             <Card.Text>
                             Aquí encontrarás los desafíos a los que se enfrentarán nuestros hechiceros                            </Card.Text>
-                            <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button>
+                            {/* <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button> */}
                         </Card.Body>
                     </Card>
                 </Col>
@@ -65,7 +65,7 @@ const HomePage = () => {
                             <Card.Title>Material de Lectura</Card.Title>
                             <Card.Text>
                             Esta sección será nuestra gran fuente de poder para resolver todo tipo situaciones gracias a las grandes mentes pensantes de nuestro pasado                            </Card.Text>
-                            <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button>
+                            {/* <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button> */}
                         </Card.Body>
                     </Card>
                 </Col>
@@ -75,8 +75,8 @@ const HomePage = () => {
                         <Card.Body>
                             <Card.Title>Mapas Mentales</Card.Title>
                             <Card.Text>
-                            Nuestros magos tw dejarán muchos mapas para que tengas varios a seguir para llegar a destino                            </Card.Text>
-                            <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button>
+                            Nuestros magos te dejarán muchos mapas para que tengas varios a seguir para llegar a destino                            </Card.Text>
+                            {/* <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button> */}
                         </Card.Body>
                     </Card>
                 </Col>
@@ -87,7 +87,7 @@ const HomePage = () => {
                             <Card.Title>Apuntes y material de estudio</Card.Title>
                             <Card.Text>
                             Como muestra de buena voluntad, aquí se podrán encontrar con una gran cantidad de material creada por Los Gerencitos para el estudio y aprendizaje                            </Card.Text>
-                            <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button>
+                            {/* <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button> */}
                         </Card.Body>
                     </Card>
                 </Col>
@@ -97,9 +97,9 @@ const HomePage = () => {
                         <Card.Body>
                             <Card.Title>Trabajo Practico Integrador</Card.Title>
                             <Card.Text>
-                                Conoce a los hechiceros que integran a este aquelarre
+                            Sumérgete en el encanto mágico del Trabajo Práctico Integrador, donde cada desafío se convierte en un hechizo por descubrir                            
                             </Card.Text>
-                            <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button>
+                            {/* <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button> */}
                         </Card.Body>
                     </Card>
                 </Col>

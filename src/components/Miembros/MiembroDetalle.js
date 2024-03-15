@@ -21,7 +21,7 @@ const MiembroDetalle = () => {
                         <Card.Img variant="top" src={meliMcGonagall} />
                     </Card>
                 </Col>
-                <Col md={6} className="mb-3">
+                <Col md={6} className="mb-3 min-height-col">
                     <Card>
                         <Card.Body>
                         <Card.Title>Chris Flamel</Card.Title>
@@ -32,6 +32,15 @@ const MiembroDetalle = () => {
                                 <p>Planificador serial</p>
                                 <p>Economizador Mileitico</p>
                             </Card.Text>
+                            <div className="video-container">
+                            <iframe 
+        src="https://drive.google.com/file/d/1u3lFD9ElCgPSFBmtGWgnmnzfph859rbz/preview" 
+        title="Video" 
+        allow="autoplay"
+        width="100%" // Ancho del iframe al 100% del contenedor padre
+        height= "500px" // Altura del iframe al 100% del contenedor padre
+    ></iframe>
+</div>
                             <Button variant="btn btn-primary" onClick={() => navigate("/miembros")}>Back</Button> 
                         </Card.Body>
                     </Card>

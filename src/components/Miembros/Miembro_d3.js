@@ -33,6 +33,15 @@ const MiembroDetalle = () => {
                                 <p>Escudo de la Verdad</p>
 
                             </Card.Text>
+                            <div className="video-container">
+                            <iframe 
+        src="https://drive.google.com/file/d/1zoTGLY8RaW8_ISDCqnsS7T771YXP65by/preview" 
+        title="Video" 
+        allow="autoplay"
+        width="100%" // Ancho del iframe al 100% del contenedor padre
+        height= "500px" // Altura del iframe al 100% del contenedor padre
+    ></iframe>
+</div>
                             <Button variant="btn btn-primary" onClick={() => navigate("/miembros")}>Back</Button> 
                         </Card.Body>
                     </Card>
