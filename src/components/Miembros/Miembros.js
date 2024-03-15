@@ -11,7 +11,10 @@ import miembro3 from '../../images/miembro3.jpg';
 import { useNavigate } from "react-router-dom";
 
 const Miembros = () => {
+    const navigate = useNavigate();
+
     return (
+        
         <Container fluid className="main-container">
             <Row className="group-logo">
                 <Logo />
@@ -29,7 +32,7 @@ const Miembros = () => {
                                 <p>Planificador serial</p>
                                 <p>Economizador Mileitico</p>
                             </Card.Text>
-                            {/* <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button> */}
+                            <Button variant="primary" onClick={() => navigate("miembrodetalle")}>Ver</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -47,7 +50,7 @@ const Miembros = () => {
 
 
                             </Card.Text>
-                            {/* <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button> */}
+                            <Button variant="primary" onClick={() => navigate("miembrodetalle2")}>Ver</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -64,10 +67,11 @@ const Miembros = () => {
                                 <p>Escudo de la Verdad</p>
 
                             </Card.Text>
-                            {/* <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button> */}
+                            <Button variant="primary" onClick={() => navigate("miembrodetalle3")}>Ver</Button>
                         </Card.Body>
                     </Card>
                 </Col>
+                
                 
             </Row>
         </Container>

@@ -11,6 +11,7 @@ import desafios from '../../images/desafios.jpg';
 import lectura from '../../images/lectura.jpg';
 import mapa from '../../images/mapa.jpg';
 import material from '../../images/material.jpg';
+import tpi from '../../images/tpi.jpg';
 import { useNavigate } from "react-router-dom";
 
 const HomePage = () => {
@@ -52,8 +53,7 @@ const HomePage = () => {
                         <Card.Body>
                             <Card.Title>Desafios</Card.Title>
                             <Card.Text>
-                                Conoce a los hechiceros que integran a este aquelarre
-                            </Card.Text>
+                            Aquí encontrarás los desafíos a los que se enfrentarán nuestros hechiceros                            </Card.Text>
                             <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button>
                         </Card.Body>
                     </Card>
@@ -64,8 +64,7 @@ const HomePage = () => {
                         <Card.Body>
                             <Card.Title>Material de Lectura</Card.Title>
                             <Card.Text>
-                                Conoce a los hechiceros que integran a este aquelarre
-                            </Card.Text>
+                            Esta sección será nuestra gran fuente de poder para resolver todo tipo situaciones gracias a las grandes mentes pensantes de nuestro pasado                            </Card.Text>
                             <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button>
                         </Card.Body>
                     </Card>
@@ -76,8 +75,7 @@ const HomePage = () => {
                         <Card.Body>
                             <Card.Title>Mapas Mentales</Card.Title>
                             <Card.Text>
-                                Conoce a los hechiceros que integran a este aquelarre
-                            </Card.Text>
+                            Nuestros magos tw dejarán muchos mapas para que tengas varios a seguir para llegar a destino                            </Card.Text>
                             <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button>
                         </Card.Body>
                     </Card>
@@ -87,6 +85,17 @@ const HomePage = () => {
                         <Card.Img variant="top" src={material} />
                         <Card.Body>
                             <Card.Title>Apuntes y material de estudio</Card.Title>
+                            <Card.Text>
+                            Como muestra de buena voluntad, aquí se podrán encontrar con una gran cantidad de material creada por Los Gerencitos para el estudio y aprendizaje                            </Card.Text>
+                            <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col sm={6} md={4} lg={3} className="justify-content-center mb-3">
+                    <Card style={{ width: '18rem', margin: 'auto' }}>
+                        <Card.Img variant="top" src={tpi} />
+                        <Card.Body>
+                            <Card.Title>Trabajo Practico Integrador</Card.Title>
                             <Card.Text>
                                 Conoce a los hechiceros que integran a este aquelarre
                             </Card.Text>

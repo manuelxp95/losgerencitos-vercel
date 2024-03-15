@@ -1,8 +1,12 @@
 .App {
-    background-color: #395B64;
+    //background-color: #395B64;
+    background-image: url(../images/harry_bk.jpg);
     height: 100%;
+    background-size: 40%;
+    //filter:blur(4px);
     // position: fixed;
 }
+
 
 .group-logo {
     text-align: center;
@@ -14,6 +18,7 @@
     max-width: 40%;
     max-height: 90%;
 }
+
 
 .logo-container {
 }
