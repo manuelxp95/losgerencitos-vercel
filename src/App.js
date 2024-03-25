@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
+import Desfios from "./components/Desafios/Desafios";
+import Desafio_d4 from "./components/Desafios/Desafio_d4";
 import Miembros from "./components/Miembros/Miembros";
 import MiembrosDet from "./components/Miembros/MiembroDetalle";
 import MiembrosDet2 from "./components/Miembros/Miembro_d2";
@@ -17,6 +19,10 @@ function App() {
           <Route path="/miembros/miembrodetalle" element={<MiembrosDet />}/>
           <Route path="/miembros/miembrodetalle2" element={<MiembrosDet2 />}/>
           <Route path="/miembros/miembrodetalle3" element={<MiembrosDet3 />}/>
+          <Route path="/desafios" element={<Desfios/>}/>
+          <Route path="/desafios/desafiodetalle4" element={<Desafio_d4 />}/>
+
+
         </Routes>
       </BrowserRouter>            
     </div>

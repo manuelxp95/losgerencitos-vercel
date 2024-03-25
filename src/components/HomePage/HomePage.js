@@ -54,7 +54,7 @@ const HomePage = () => {
                             <Card.Title>Desafios</Card.Title>
                             <Card.Text>
                             Aquí encontrarás los desafíos a los que se enfrentarán nuestros hechiceros                            </Card.Text>
-                            {/* <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button> */}
+                            <Button variant="primary" onClick={() => navigate("desafios")}>Ver</Button>
                         </Card.Body>
                     </Card>
                 </Col>
