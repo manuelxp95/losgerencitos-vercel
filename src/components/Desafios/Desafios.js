@@ -54,6 +54,24 @@ const Desafios = () => {
                         </Card.Body>
                     </Card>
                 </Col>
+                <Col sm={4} className="justify-content-center mb-3">
+                    <Card style={{ width: '22rem', margin: 'auto' }}>
+                        <Card.Img variant="top" src={desafio_sample} />
+                        <Card.Body>
+                            <Card.Title>Desafio 5</Card.Title>
+                            <Button variant="primary" onClick={() => navigate("desafiodetalle5")}>Ver</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col sm={4} className="justify-content-center mb-3">
+                    <Card style={{ width: '22rem', margin: 'auto' }}>
+                        <Card.Img variant="top" src={desafio_sample} />
+                        <Card.Body>
+                            <Card.Title>Desafio 6</Card.Title>
+                            <Button variant="primary" onClick={() => navigate("desafiodetalle6")}>Ver</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
                 
                 
             </Row>
