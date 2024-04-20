@@ -9,6 +9,10 @@ import Miembros from "./components/Miembros/Miembros";
 import MiembrosDet from "./components/Miembros/MiembroDetalle";
 import MiembrosDet2 from "./components/Miembros/Miembro_d2";
 import MiembrosDet3 from "./components/Miembros/Miembro_d3";
+
+import MMentales from "./components/MapasMentales/MMentales";
+import MMentales_u1 from "./components/MapasMentales/MMentales_u1";
+
 import "./styles/globals.scss";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -18,14 +22,20 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage/>}/>
+
           <Route path="/miembros" element={<Miembros />}/>
           <Route path="/miembros/miembrodetalle" element={<MiembrosDet />}/>
           <Route path="/miembros/miembrodetalle2" element={<MiembrosDet2 />}/>
           <Route path="/miembros/miembrodetalle3" element={<MiembrosDet3 />}/>
+
           <Route path="/desafios" element={<Desfios/>}/>
           <Route path="/desafios/desafiodetalle4" element={<Desafio_d4 />}/>
           <Route path="/desafios/desafiodetalle5" element={<Desafio_d5 />}/>
           <Route path="/desafios/desafiodetalle6" element={<Desafio_d6 />}/>
+
+          <Route path="/mapmentales" element={<MMentales/>}/>
+          <Route path="/mapmentales/mmentales1" element={<MMentales_u1/>}/>
+
 
 
         </Routes>

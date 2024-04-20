@@ -76,8 +76,8 @@ const HomePage = () => {
                             <Card.Title>Mapas Mentales</Card.Title>
                             <Card.Text>
                             Nuestros magos te dejarán muchos mapas para que tengas varios a seguir para llegar a destino                            </Card.Text>
-                            {/* <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button> */}
-                        </Card.Body>
+                             <Button variant="primary" onClick={() => navigate("mapmentales")}>Ver</Button>
+                            </Card.Body>
                     </Card>
                 </Col>
                 <Col sm={6} md={4} lg={3} className="justify-content-center mb-3">
