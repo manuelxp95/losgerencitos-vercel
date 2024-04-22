@@ -3,6 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import meliMcGonagall from '../../images/miembro1.jpeg';
+import mapmental1 from '../../images/MentalUnidad1.png';
+
 import { useNavigate } from "react-router-dom";
 
 const MMentalesDet = () => {
@@ -14,15 +16,14 @@ const MMentalesDet = () => {
                 <Logo />
             </Row>
             <Row className="justify-content-center mt-3 pb-3">
-                <div className="video-container">
-                    <iframe 
-                        src="https://drive.google.com/file/d/1EZ9DwOHfsl2v2B32p3Uv4v1gtLL79P_C/view?usp=drive_link" 
-                        title="PDF Viewer" 
-                        width="90%" 
-                        height="1000px" 
-                        allow="autoplay"
-                    ></iframe>
-                </div>
+            <div className="image-container text-center">
+            <img
+                src= {mapmental1}
+                alt="Imagen desde Google Drive"
+                width="90%"
+                height="auto"
+            />
+            </div>
             </Row>
             <div className="text-center mt-3 pb-3">
                 <Button variant="btn btn-primary" onClick={() => navigate("/mapmentales")}>Back</Button>
