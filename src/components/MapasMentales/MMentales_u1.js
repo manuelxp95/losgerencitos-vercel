@@ -16,7 +16,7 @@ const MMentalesDet = () => {
             <Row className="justify-content-center mt-3 pb-3">
                 <div className="video-container">
                     <iframe 
-                        src="https://drive.google.com/file/d/1sMpVpmGrZ66yKjsmn1EUxwQWHJZOETqZ/view?usp=sharing" 
+                        src="https://drive.google.com/file/d/1EZ9DwOHfsl2v2B32p3Uv4v1gtLL79P_C/view?usp=drive_link" 
                         title="PDF Viewer" 
                         width="90%" 
                         height="1000px" 
