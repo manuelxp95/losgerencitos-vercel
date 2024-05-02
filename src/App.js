@@ -6,7 +6,6 @@ import Desafio_d5 from "./components/Desafios/Desafio_d5";
 import Desafio_d6 from "./components/Desafios/Desafio_d6";
 import Desafio_d7 from "./components/Desafios/Desafio_d7";
 
-
 import Miembros from "./components/Miembros/Miembros";
 import MiembrosDet from "./components/Miembros/MiembroDetalle";
 import MiembrosDet2 from "./components/Miembros/Miembro_d2";
@@ -14,6 +13,13 @@ import MiembrosDet3 from "./components/Miembros/Miembro_d3";
 
 import MMentales from "./components/MapasMentales/MMentales";
 import MMentales_u1 from "./components/MapasMentales/MMentales_u1";
+
+import RutAprendizaje from "./components/RutaAprendizaje/RutaMiembros";
+import Ruta_d1 from "./components/RutaAprendizaje/Ruta_d1";
+import Ruta_d2 from "./components/RutaAprendizaje/Ruta_d2";
+import Ruta_d3 from "./components/RutaAprendizaje/Ruta_d3";
+
+
 
 import "./styles/globals.scss";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -37,8 +43,17 @@ function App() {
           <Route path="/desafios/desafiodetalle7" element={<Desafio_d7 />}/>
 
 
-          <Route path="/mapmentales" element={<MMentales/>}/>
-          <Route path="/mapmentales/mmentales1" element={<MMentales_u1/>}/>
+                  <Route path="/mapmentales" element={<MMentales />} />
+                  <Route path="/mapmentales/mmentales1" element={<MMentales_u1 />} />
+
+                  <Route path="/rutaprendi" element={<RutAprendizaje />} />
+                  <Route path="/rutaprendi/ruta_d1" element={<Ruta_d1 />} />
+                  <Route path="/rutaprendi/ruta_d2" element={<Ruta_d2 />} />
+                  <Route path="/rutaprendi/ruta_d3" element={<Ruta_d3 />} />
+
+
+
+
 
 
 

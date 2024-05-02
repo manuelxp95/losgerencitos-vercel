@@ -22,7 +22,7 @@ const MMentales = () => {
                     <Card style={{ width: '22rem', margin: 'auto' }}>
                         <Card.Img variant="top" src={mapa} />
                         <Card.Body>
-                            <Card.Title>Mapa Mental Unidad 1</Card.Title>
+                            <Card.Title>Mapa Mental 1</Card.Title>
                             <Button variant="primary" onClick={() => navigate("mmentales1")}>Ver</Button>
                         </Card.Body>
                     </Card>
@@ -31,7 +31,7 @@ const MMentales = () => {
                     <Card style={{ width: '22rem', margin: 'auto' }}>
                         <Card.Img variant="top" src={mapa} />
                         <Card.Body>
-                            <Card.Title>Mapa Mental Unidad 2</Card.Title>
+                            <Card.Title>Mapa Mental 2</Card.Title>
                             {/* <Button variant="primary" onClick={() => navigate("miembrodetalle2")}>Ver</Button> */}
                         </Card.Body>
                     </Card>
@@ -40,7 +40,7 @@ const MMentales = () => {
                     <Card style={{ width: '22rem', margin: 'auto' }}>
                         <Card.Img variant="top" src={mapa} />
                         <Card.Body>
-                            <Card.Title>Mapa Mental Unidad 3</Card.Title>
+                            <Card.Title>Mapa Mental 3</Card.Title>
                             {/* Todo: <Button variant="primary" onClick={() => navigate("miembrodetalle2")}>Ver</Button> */}
                         </Card.Body>
                     </Card>

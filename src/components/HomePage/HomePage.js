@@ -62,10 +62,11 @@ const HomePage = () => {
                     <Card style={{ width: '18rem', margin: 'auto' }}>
                         <Card.Img variant="top" src={lectura} />
                         <Card.Body>
-                            <Card.Title>Material de Lectura</Card.Title>
+                            <Card.Title>Ruta de Aprendizaje</Card.Title>
                             <Card.Text>
-                            Esta sección será nuestra gran fuente de poder para resolver todo tipo situaciones gracias a las grandes mentes pensantes de nuestro pasado                            </Card.Text>
-                            {/* <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button> */}
+                                ¡Bienvenidos a nuestra mágica ruta de aprendizaje!
+                            </Card.Text>
+                            <Button variant="primary" onClick={() => navigate("rutaprendi")}>Ver</Button>
                         </Card.Body>
                     </Card>
                 </Col>

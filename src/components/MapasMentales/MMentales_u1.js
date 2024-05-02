@@ -6,10 +6,12 @@ import Button from 'react-bootstrap/Button';
 import { useNavigate } from "react-router-dom";
 import mapmental1 from '../../images/MentalUnidad1.png';
 import mapmentalramirez from '../../images/MapaRamirez.jpg';
+import mapmentalmelina from '../../images/MapaMelina.webp';
+
 
 const MMentalesDet = () => {
     const navigate = useNavigate();
-    const [fullscreen, setFullscreen] = useState({ map1: false, map2: false });
+    const [fullscreen, setFullscreen] = useState({ map1: false, map2: false, map3:false });
 
     const toggleFullscreen = (map) => {
         setFullscreen({ ...fullscreen, [map]: !fullscreen[map] });
@@ -53,6 +55,25 @@ const MMentalesDet = () => {
                             width="90%"
                             height="auto"
                             onClick={() => toggleFullscreen('map2')}
+                            style={{ cursor: 'pointer' }}
+                        />
+                    )}
+                </div>
+            </Row>
+            <Row className="justify-content-center mt-3 pb-3">
+                <div className="image-container text-center">
+                    {fullscreen.map3 && (
+                        <div className="fullscreen-overlay" onClick={() => toggleFullscreen('map3')}>
+                            <img src={mapmentalmelina} alt="Mapa Mental Unidad 1" />
+                        </div>
+                    )}
+                    {!fullscreen.map3 && (
+                        <img
+                            src={mapmentalmelina}
+                            alt="Mapa Mental Unidad 1"
+                            width="90%"
+                            height="auto"
+                            onClick={() => toggleFullscreen('map3')}
                             style={{ cursor: 'pointer' }}
                         />
                     )}
