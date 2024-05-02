@@ -5,13 +5,14 @@ import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from "react-router-dom";
 import mapmental1 from '../../images/MentalUnidad1.png';
+import mapmentalramirez from '../../images/MapaRamirez.jpg';
 
 const MMentalesDet = () => {
     const navigate = useNavigate();
-    const [fullscreen, setFullscreen] = useState(false);
+    const [fullscreen, setFullscreen] = useState({ map1: false, map2: false });
 
-    const toggleFullscreen = () => {
-        setFullscreen(!fullscreen);
+    const toggleFullscreen = (map) => {
+        setFullscreen({ ...fullscreen, [map]: !fullscreen[map] });
     };
 
     return (
@@ -21,18 +22,37 @@ const MMentalesDet = () => {
             </Row>
             <Row className="justify-content-center mt-3 pb-3">
                 <div className="image-container text-center">
-                    {fullscreen && (
-                        <div className="fullscreen-overlay" onClick={toggleFullscreen}>
+                    {fullscreen.map1 && (
+                        <div className="fullscreen-overlay" onClick={() => toggleFullscreen('map1')}>
                             <img src={mapmental1} alt="Mapa Mental Unidad 1" />
                         </div>
                     )}
-                    {!fullscreen && (
+                    {!fullscreen.map1 && (
                         <img
                             src={mapmental1}
                             alt="Mapa Mental Unidad 1"
                             width="90%"
                             height="auto"
-                            onClick={toggleFullscreen}
+                            onClick={() => toggleFullscreen('map1')}
+                            style={{ cursor: 'pointer' }}
+                        />
+                    )}
+                </div>
+            </Row>
+            <Row className="justify-content-center mt-3 pb-3">
+                <div className="image-container text-center">
+                    {fullscreen.map2 && (
+                        <div className="fullscreen-overlay" onClick={() => toggleFullscreen('map2')}>
+                            <img src={mapmentalramirez} alt="Mapa Mental Unidad 1" />
+                        </div>
+                    )}
+                    {!fullscreen.map2 && (
+                        <img
+                            src={mapmentalramirez}
+                            alt="Mapa Mental Unidad 1"
+                            width="90%"
+                            height="auto"
+                            onClick={() => toggleFullscreen('map2')}
                             style={{ cursor: 'pointer' }}
                         />
                     )}

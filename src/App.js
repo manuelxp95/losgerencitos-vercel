@@ -4,6 +4,8 @@ import Desfios from "./components/Desafios/Desafios";
 import Desafio_d4 from "./components/Desafios/Desafio_d4";
 import Desafio_d5 from "./components/Desafios/Desafio_d5";
 import Desafio_d6 from "./components/Desafios/Desafio_d6";
+import Desafio_d7 from "./components/Desafios/Desafio_d7";
+
 
 import Miembros from "./components/Miembros/Miembros";
 import MiembrosDet from "./components/Miembros/MiembroDetalle";
@@ -32,6 +34,8 @@ function App() {
           <Route path="/desafios/desafiodetalle4" element={<Desafio_d4 />}/>
           <Route path="/desafios/desafiodetalle5" element={<Desafio_d5 />}/>
           <Route path="/desafios/desafiodetalle6" element={<Desafio_d6 />}/>
+          <Route path="/desafios/desafiodetalle7" element={<Desafio_d7 />}/>
+
 
           <Route path="/mapmentales" element={<MMentales/>}/>
           <Route path="/mapmentales/mmentales1" element={<MMentales_u1/>}/>

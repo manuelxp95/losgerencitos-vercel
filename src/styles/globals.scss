@@ -1,7 +1,13 @@
+.html{
+    height: 100%;
+}
+
+
+
 .App {
     //background-color: #395B64;
     background-image: url(../images/harry_bk.jpg);
-    height: 100%;
+    min-height: 100%;
     background-size: 40%;
     //filter:blur(4px);
     // position: fixed;

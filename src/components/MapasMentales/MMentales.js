@@ -18,7 +18,7 @@ const MMentales = () => {
                 <Logo />
             </Row>
             <Row>
-                <Col sm={4} className="justify-content-center mb-3">
+                <Col xs={12} md={6} lg={4} className="justify-content-center mb-3">
                     <Card style={{ width: '22rem', margin: 'auto' }}>
                         <Card.Img variant="top" src={mapa} />
                         <Card.Body>
@@ -27,7 +27,7 @@ const MMentales = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col sm={4} className="justify-content-center mb-3">
+                <Col xs={12} md={6} lg={4} className="justify-content-center mb-3">
                     <Card style={{ width: '22rem', margin: 'auto' }}>
                         <Card.Img variant="top" src={mapa} />
                         <Card.Body>
@@ -36,7 +36,7 @@ const MMentales = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col sm={4} className="justify-content-center mb-3">
+                <Col xs={12} md={6} lg={4} className="justify-content-center mb-3">
                     <Card style={{ width: '22rem', margin: 'auto' }}>
                         <Card.Img variant="top" src={mapa} />
                         <Card.Body>

@@ -18,7 +18,7 @@ const Desafios = () => {
                 <Logo />
             </Row>
             <Row>
-                <Col sm={4} className="justify-content-center mb-3">
+                <Col xs={12} md={6} lg={4}  className="justify-content-center mb-3">
                     <Card style={{ width: '22rem', margin: 'auto' }}>
                         <Card.Img variant="top" src={desafio_sample} />
                         <Card.Body>
@@ -27,7 +27,7 @@ const Desafios = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col sm={4} className="justify-content-center mb-3">
+                <Col xs={12} md={6} lg={4} className="justify-content-center mb-3">
                     <Card style={{ width: '22rem', margin: 'auto' }}>
                         <Card.Img variant="top" src={desafio_sample} />
                         <Card.Body>
@@ -36,7 +36,7 @@ const Desafios = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col sm={4} className="justify-content-center mb-3">
+                <Col xs={12} md={6} lg={4} className="justify-content-center mb-3">
                     <Card style={{ width: '22rem', margin: 'auto' }}>
                         <Card.Img variant="top" src={desafio_sample} />
                         <Card.Body>
@@ -45,7 +45,7 @@ const Desafios = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col sm={4} className="justify-content-center mb-3">
+                <Col xs={12} md={6} lg={4} className="justify-content-center mb-3">
                     <Card style={{ width: '22rem', margin: 'auto' }}>
                         <Card.Img variant="top" src={desafio_sample} />
                         <Card.Body>
@@ -54,7 +54,7 @@ const Desafios = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col sm={4} className="justify-content-center mb-3">
+                <Col xs={12} md={6} lg={4} className="justify-content-center mb-3">
                     <Card style={{ width: '22rem', margin: 'auto' }}>
                         <Card.Img variant="top" src={desafio_sample} />
                         <Card.Body>
@@ -63,12 +63,21 @@ const Desafios = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col sm={4} className="justify-content-center mb-3">
+                <Col xs={12} md={6} lg={4} className="justify-content-center mb-3">
                     <Card style={{ width: '22rem', margin: 'auto' }}>
                         <Card.Img variant="top" src={desafio_sample} />
                         <Card.Body>
                             <Card.Title>Desafio 6</Card.Title>
                             <Button variant="primary" onClick={() => navigate("desafiodetalle6")}>Ver</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col xs={12} md={6} lg={4} className="justify-content-center mb-3">
+                    <Card style={{ width: '22rem', margin: 'auto' }}>
+                        <Card.Img variant="top" src={desafio_sample} />
+                        <Card.Body>
+                            <Card.Title>Desafio 7</Card.Title>
+                            <Button variant="primary" onClick={() => navigate("desafiodetalle7")}>Ver</Button>
                         </Card.Body>
                     </Card>
                 </Col>
