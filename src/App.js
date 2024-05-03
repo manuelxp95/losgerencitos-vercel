@@ -19,6 +19,9 @@ import Ruta_d1 from "./components/RutaAprendizaje/Ruta_d1";
 import Ruta_d2 from "./components/RutaAprendizaje/Ruta_d2";
 import Ruta_d3 from "./components/RutaAprendizaje/Ruta_d3";
 
+import Alianza from "./components/Alianza/Alianza";
+
+import Apuntes from "./components/Apuntes/Apuntes";
 
 
 import "./styles/globals.scss";
@@ -50,6 +53,10 @@ function App() {
                   <Route path="/rutaprendi/ruta_d1" element={<Ruta_d1 />} />
                   <Route path="/rutaprendi/ruta_d2" element={<Ruta_d2 />} />
                   <Route path="/rutaprendi/ruta_d3" element={<Ruta_d3 />} />
+
+                  <Route path="/alianzas" element={<Alianza />} />
+
+                  <Route path="/apuntes" element={<Apuntes />} />
 
 
 

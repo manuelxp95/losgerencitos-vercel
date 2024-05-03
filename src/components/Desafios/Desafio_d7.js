@@ -16,7 +16,7 @@ const DesafiosDetalle = () => {
             <Row className="justify-content-center mt-3 pb-3">
                 <div className="video-container">
                     <iframe 
-                        src="https://docs.google.com/document/d/1AZyZ-7O_TrGe8b2qyDfFecelEjgP_hL_-6DDqiIST8Q/edit?usp=sharing" 
+                        src="https://docs.google.com/document/d/1TtWLMt_G5PHtXQ0DPhM0JgyYNCTKXo0u2tVmdCMZHYU/edit?usp=drive_link" 
                         title="PDF Viewer" 
                         width="90%" 
                         height="1000px" 

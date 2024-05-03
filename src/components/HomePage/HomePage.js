@@ -43,7 +43,7 @@ const HomePage = () => {
                             <Card.Text>
                                 Uniendo nuestras varitas en un lazo irrompible, encantamos nuestras almas en una alianza mágica
                             </Card.Text>
-                            {/* <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button> */}
+                            <Button variant="primary" onClick={() => navigate("alianzas")}>Ver</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -85,11 +85,10 @@ const HomePage = () => {
                     <Card style={{ width: '18rem', margin: 'auto' }}>
                         <Card.Img variant="top" src={material} />
                         <Card.Body>
-                            <Card.Title>Apuntes y material de estudio</Card.Title>
+                            <Card.Title>Apuntes y Materiales</Card.Title>
                             <Card.Text>
-                            Como muestra de buena voluntad, aquí se podrán encontrar con una gran cantidad de material creada por Los Gerencitos para el estudio y aprendizaje                            </Card.Text>
-                            {/* <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button> */}
-                        </Card.Body>
+                            Aquí se podrán encontrar con una gran cantidad de material creada para el estudio y aprendizaje                            </Card.Text>
+                            <Button variant="primary" onClick={() => navigate("apuntes")}>Ver</Button>                        </Card.Body>
                     </Card>
                 </Col>
                 <Col sm={6} md={4} lg={3} className="justify-content-center mb-3">
