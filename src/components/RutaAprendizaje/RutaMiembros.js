@@ -28,7 +28,7 @@ const RutaMiembros = () => {
                             <Card.Text>
                             <p><strong>Mi Ruta de Aprendizaje</strong></p>
                             </Card.Text>
-                            {/* <Button variant="primary" onClick={() => navigate("ruta_d1")}>Ver</Button>*/}
+                            <Button variant="primary" onClick={() => navigate("ruta_d1")}>Ver</Button>
                         </Card.Body>
                     </Card>
                 </Col>

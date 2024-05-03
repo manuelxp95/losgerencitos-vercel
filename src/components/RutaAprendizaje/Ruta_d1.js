@@ -33,7 +33,7 @@ const MiembroDetalle = () => {
                                 <iframe loading="lazy" style={{
                                     position: 'absolute', width: '100%', height: '100%', top: 0, left: 0,
                                     border: 'none', padding: 0, margin: 0
-                                }} src="https://www.canva.com/design/DAGEByj4GhE/pKxPv8C12dwf9VYNX2U5_g/view?embed" allowFullScreen></iframe>
+                                }} src="https://www.canva.com/design/DAGEHldUVHo/705Oej26sDxBA7H9g5VgyQ/view?embed" allowFullScreen></iframe>
                             </div>
                             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                                 <span>Ruta de Aprendizaje de Melina Anahí Teruel</span>
