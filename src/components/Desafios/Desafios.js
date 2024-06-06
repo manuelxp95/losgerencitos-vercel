@@ -81,6 +81,69 @@ const Desafios = () => {
                         </Card.Body>
                     </Card>
                 </Col>
+                <Col xs={12} md={6} lg={4} className="justify-content-center mb-3">
+                    <Card style={{ width: '22rem', margin: 'auto' }}>
+                        <Card.Img variant="top" src={desafio_sample} />
+                        <Card.Body>
+                            <Card.Title>Desafio 8</Card.Title>
+                            {/* <Button variant="primary" onClick={() => navigate("desafiodetalle7")}>Ver</Button> */}
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col xs={12} md={6} lg={4} className="justify-content-center mb-3">
+                    <Card style={{ width: '22rem', margin: 'auto' }}>
+                        <Card.Img variant="top" src={desafio_sample} />
+                        <Card.Body>
+                            <Card.Title>Desafio 9</Card.Title>
+                            <Button variant="primary" onClick={() => navigate("desafiodetalle9")}>Ver</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col xs={12} md={6} lg={4} className="justify-content-center mb-3">
+                    <Card style={{ width: '22rem', margin: 'auto' }}>
+                        <Card.Img variant="top" src={desafio_sample} />
+                        <Card.Body>
+                            <Card.Title>Desafio 10</Card.Title>
+                            <Button variant="primary" onClick={() => navigate("desafiodetalle10")}>Ver</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col xs={12} md={6} lg={4} className="justify-content-center mb-3">
+                    <Card style={{ width: '22rem', margin: 'auto' }}>
+                        <Card.Img variant="top" src={desafio_sample} />
+                        <Card.Body>
+                            <Card.Title>Desafio 11</Card.Title>
+                            <Button variant="primary" onClick={() => navigate("desafiodetalle11")}>Ver</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col xs={12} md={6} lg={4} className="justify-content-center mb-3">
+                    <Card style={{ width: '22rem', margin: 'auto' }}>
+                        <Card.Img variant="top" src={desafio_sample} />
+                        <Card.Body>
+                            <Card.Title>Desafio 12</Card.Title>
+                            <Button variant="primary" onClick={() => navigate("desafiodetalle12")}>Ver</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col xs={12} md={6} lg={4} className="justify-content-center mb-3">
+                    <Card style={{ width: '22rem', margin: 'auto' }}>
+                        <Card.Img variant="top" src={desafio_sample} />
+                        <Card.Body>
+                            <Card.Title>Desafio 13</Card.Title>
+                            <Button variant="primary" onClick={() => navigate("desafiodetalle13")}>Ver</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col xs={12} md={6} lg={4} className="justify-content-center mb-3">
+                    <Card style={{ width: '22rem', margin: 'auto' }}>
+                        <Card.Img variant="top" src={desafio_sample} />
+                        <Card.Body>
+                            <Card.Title>Visita experto</Card.Title>
+                            <Button variant="primary" onClick={() => navigate("visitaexp")}>Ver</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
                 
                 
             </Row>

@@ -5,6 +5,12 @@ import Desafio_d4 from "./components/Desafios/Desafio_d4";
 import Desafio_d5 from "./components/Desafios/Desafio_d5";
 import Desafio_d6 from "./components/Desafios/Desafio_d6";
 import Desafio_d7 from "./components/Desafios/Desafio_d7";
+import Desafio_d9 from "./components/Desafios/Desafio_d9";
+import Desafio_d10 from "./components/Desafios/Desafio_d10";
+import Desafio_d11 from "./components/Desafios/Desafio_d11";
+import Desafio_d12 from "./components/Desafios/Desafio_d12";
+import Desafio_d13 from "./components/Desafios/Desafio_d13";
+import Visita_exp from "./components/Desafios/Visita_exp";
 
 import Miembros from "./components/Miembros/Miembros";
 import MiembrosDet from "./components/Miembros/MiembroDetalle";
@@ -23,6 +29,7 @@ import Alianza from "./components/Alianza/Alianza";
 
 import Apuntes from "./components/Apuntes/Apuntes";
 
+import Tpi from "./components/TPI/TPI";
 
 import "./styles/globals.scss";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -44,6 +51,12 @@ function App() {
           <Route path="/desafios/desafiodetalle5" element={<Desafio_d5 />}/>
           <Route path="/desafios/desafiodetalle6" element={<Desafio_d6 />}/>
           <Route path="/desafios/desafiodetalle7" element={<Desafio_d7 />}/>
+          <Route path="/desafios/desafiodetalle9" element={<Desafio_d9 />}/>
+          <Route path="/desafios/desafiodetalle10" element={<Desafio_d10 />}/>
+          <Route path="/desafios/desafiodetalle11" element={<Desafio_d11 />}/>
+          <Route path="/desafios/desafiodetalle12" element={<Desafio_d12 />}/>
+          <Route path="/desafios/desafiodetalle13" element={<Desafio_d13 />}/>
+          <Route path="/desafios/visitaexp" element={<Visita_exp />}/>
 
 
                   <Route path="/mapmentales" element={<MMentales />} />
@@ -58,9 +71,7 @@ function App() {
 
                   <Route path="/apuntes" element={<Apuntes />} />
 
-
-
-
+                  <Route path="/tpi" element={<Tpi />} />
 
 
 

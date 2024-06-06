@@ -99,7 +99,7 @@ const HomePage = () => {
                             <Card.Text>
                             Sumérgete en el encanto mágico del Trabajo Práctico Integrador, donde cada desafío se convierte en un hechizo por descubrir                            
                             </Card.Text>
-                            {/* <Button variant="primary" onClick={() => navigate("miembros")}>Ver</Button> */}
+                            <Button variant="primary" onClick={() => navigate("tpi")}>Ver</Button>
                         </Card.Body>
                     </Card>
                 </Col>
