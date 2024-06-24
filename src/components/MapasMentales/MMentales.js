@@ -31,21 +31,11 @@ const MMentales = () => {
                     <Card style={{ width: '22rem', margin: 'auto' }}>
                         <Card.Img variant="top" src={mapa} />
                         <Card.Body>
-                            <Card.Title>Mapa Mental 2</Card.Title>
-                            {/* <Button variant="primary" onClick={() => navigate("miembrodetalle2")}>Ver</Button> */}
+                            <Card.Title>Mapa Mental General</Card.Title>
+                            <Button variant="primary" onClick={() => navigate("mmentales2")}>Ver</Button>
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col xs={12} md={6} lg={4} className="justify-content-center mb-3">
-                    <Card style={{ width: '22rem', margin: 'auto' }}>
-                        <Card.Img variant="top" src={mapa} />
-                        <Card.Body>
-                            <Card.Title>Mapa Mental 3</Card.Title>
-                            {/* Todo: <Button variant="primary" onClick={() => navigate("miembrodetalle2")}>Ver</Button> */}
-                        </Card.Body>
-                    </Card>
-                </Col>
-                
                 
             </Row>
         </Container>

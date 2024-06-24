@@ -12,6 +12,8 @@ import lectura from '../../images/lectura.jpg';
 import mapa from '../../images/mapa.jpg';
 import material from '../../images/material.jpg';
 import tpi from '../../images/tpi.jpg';
+import visitas from '../../images/Visitas.jpg';
+
 import { useNavigate } from "react-router-dom";
 
 const HomePage = () => {
@@ -89,6 +91,17 @@ const HomePage = () => {
                             <Card.Text>
                             Aquí se podrán encontrar con una gran cantidad de material creada para el estudio y aprendizaje                            </Card.Text>
                             <Button variant="primary" onClick={() => navigate("apuntes")}>Ver</Button>                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col sm={6} md={4} lg={3} className="justify-content-center mb-3">
+                    <Card style={{ width: '18rem', margin: 'auto' }}>
+                        <Card.Img variant="top" src={visitas} />
+                        <Card.Body>
+                            <Card.Title>Visitas</Card.Title>
+                            <Card.Text>
+                            Aquí se podrán encontrar con una gran cantidad de material creada para el estudio y aprendizaje                            </Card.Text>
+                            {/* <Button variant="primary" onClick={() => navigate("apuntes")}>Ver</Button>                        */}
+                            </Card.Body> 
                     </Card>
                 </Col>
                 <Col sm={6} md={4} lg={3} className="justify-content-center mb-3">

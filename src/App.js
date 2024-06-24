@@ -19,11 +19,17 @@ import MiembrosDet3 from "./components/Miembros/Miembro_d3";
 
 import MMentales from "./components/MapasMentales/MMentales";
 import MMentales_u1 from "./components/MapasMentales/MMentales_u1";
+import MMentales_u2 from "./components/MapasMentales/MMentales_u2";
+
 
 import RutAprendizaje from "./components/RutaAprendizaje/RutaMiembros";
 import Ruta_d1 from "./components/RutaAprendizaje/Ruta_d1";
 import Ruta_d2 from "./components/RutaAprendizaje/Ruta_d2";
 import Ruta_d3 from "./components/RutaAprendizaje/Ruta_d3";
+
+import Rpa2 from "./components/RPA/Rpa2";
+
+import Info2 from "./components/Infografias/Info2"
 
 import Alianza from "./components/Alianza/Alianza";
 
@@ -61,6 +67,8 @@ function App() {
 
                   <Route path="/mapmentales" element={<MMentales />} />
                   <Route path="/mapmentales/mmentales1" element={<MMentales_u1 />} />
+                  <Route path="/mapmentales/mmentales2" element={<MMentales_u2 />} />
+
 
                   <Route path="/rutaprendi" element={<RutAprendizaje />} />
                   <Route path="/rutaprendi/ruta_d1" element={<Ruta_d1 />} />
@@ -72,6 +80,10 @@ function App() {
                   <Route path="/apuntes" element={<Apuntes />} />
 
                   <Route path="/tpi" element={<Tpi />} />
+
+                  <Route path="/miembros/rpa2" element={<Rpa2 />} />
+
+                  <Route path="/miembros/infografia2" element={<Info2 />} />
 
 
 
