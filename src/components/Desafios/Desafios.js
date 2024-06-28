@@ -139,8 +139,35 @@ const Desafios = () => {
                     <Card style={{ width: '22rem', margin: 'auto' }}>
                         <Card.Img variant="top" src={desafio_sample} />
                         <Card.Body>
-                            <Card.Title>Visita experto</Card.Title>
-                            <Button variant="primary" onClick={() => navigate("visitaexp")}>Ver</Button>
+                            <Card.Title>Lecciones Aprendidas</Card.Title>
+                            <Button variant="primary" onClick={() => navigate("lecciones")}>Ver</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col xs={12} md={6} lg={4} className="justify-content-center mb-3">
+                    <Card style={{ width: '22rem', margin: 'auto' }}>
+                        <Card.Img variant="top" src={desafio_sample} />
+                        <Card.Body>
+                            <Card.Title>Oportunidad de mejora</Card.Title>
+                            {/* <Button variant="primary" onClick={() => navigate("lecciones")}>Ver</Button> */}
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col xs={12} md={6} lg={4} className="justify-content-center mb-3">
+                    <Card style={{ width: '22rem', margin: 'auto' }}>
+                        <Card.Img variant="top" src={desafio_sample} />
+                        <Card.Body>
+                            <Card.Title>Informe</Card.Title>
+                            {/* <Button variant="primary" onClick={() => navigate("lecciones")}>Ver</Button> */}
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col xs={12} md={6} lg={4} className="justify-content-center mb-3">
+                    <Card style={{ width: '22rem', margin: 'auto' }}>
+                        <Card.Img variant="top" src={desafio_sample} />
+                        <Card.Body>
+                            <Card.Title>Infografia</Card.Title>
+                            {/* <Button variant="primary" onClick={() => navigate("lecciones")}>Ver</Button> */}
                         </Card.Body>
                     </Card>
                 </Col>
