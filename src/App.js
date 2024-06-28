@@ -37,6 +37,10 @@ import Alianza from "./components/Alianza/Alianza";
 
 import Apuntes from "./components/Apuntes/Apuntes";
 
+import Visitas from "./components/Visistas/Visitas";
+import Visitas_lh from "./components/Visistas/Visita_lh";
+
+
 import Tpi from "./components/TPI/TPI";
 
 import "./styles/globals.scss";
@@ -64,7 +68,7 @@ function App() {
           <Route path="/desafios/desafiodetalle11" element={<Desafio_d11 />}/>
           <Route path="/desafios/desafiodetalle12" element={<Desafio_d12 />}/>
           <Route path="/desafios/desafiodetalle13" element={<Desafio_d13 />}/>
-          <Route path="/desafios/visitaexp" element={<Visita_exp />}/>
+
 
 
                   <Route path="/mapmentales" element={<MMentales />} />
@@ -80,6 +84,11 @@ function App() {
                   <Route path="/alianzas" element={<Alianza />} />
 
                   <Route path="/apuntes" element={<Apuntes />} />
+
+                  <Route path="/Visitas" element={<Visitas />} />
+                  <Route path="/Visitas/visitaexp" element={<Visita_exp />}/>
+                  <Route path="/Visitas/visitalh" element={<Visitas_lh />}/>
+
 
                   <Route path="/tpi" element={<Tpi />} />
 

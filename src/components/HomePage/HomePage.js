@@ -100,7 +100,7 @@ const HomePage = () => {
                             <Card.Title>Visitas</Card.Title>
                             <Card.Text>
                             Aquí se podrán encontrar con una gran cantidad de material creada para el estudio y aprendizaje                            </Card.Text>
-                            {/* <Button variant="primary" onClick={() => navigate("apuntes")}>Ver</Button>                        */}
+                            <Button variant="primary" onClick={() => navigate("visitas")}>Ver</Button>                       
                             </Card.Body> 
                     </Card>
                 </Col>

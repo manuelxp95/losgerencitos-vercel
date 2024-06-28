@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import meliMcGonagall from '../../images/miembro1.jpeg';
 import { useNavigate } from "react-router-dom";
 
-const DesafiosDetalle = () => {
+const Visitalh = () => {
     const navigate = useNavigate();
 
     return (
@@ -16,7 +16,7 @@ const DesafiosDetalle = () => {
             <Row className="justify-content-center mt-3 pb-3">
                 <div className="video-container">
                     <iframe 
-                        src="https://www.canva.com/design/DAGJW1obi-w/AHkSbjiK1EF90yw3NPbYVw/view?embed" 
+                        src="https://www.canva.com/design/DAGJV9IrqkE/K0jEr-3A5R4WyFN1-hHyFA/view?embed" 
                         title="PDF Viewer" 
                         width="90%" 
                         height="1000px" 
@@ -31,4 +31,4 @@ const DesafiosDetalle = () => {
     )
 };
 
-export default DesafiosDetalle;
+export default Visitalh;
