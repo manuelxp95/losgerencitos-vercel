@@ -29,9 +29,13 @@ import Ruta_d3 from "./components/RutaAprendizaje/Ruta_d3";
 
 import Rpa1 from "./components/RPA/Rpa1";
 import Rpa2 from "./components/RPA/Rpa2";
+import Rpa3 from "./components/RPA/Rpa3";
+
 
 import Info1 from "./components/Infografias/Info1"
 import Info2 from "./components/Infografias/Info2"
+import Info3 from "./components/Infografias/Info3"
+
 
 import Alianza from "./components/Alianza/Alianza";
 
@@ -94,9 +98,12 @@ function App() {
 
                   <Route path="/miembros/rpa1" element={<Rpa1 />} />
                   <Route path="/miembros/rpa2" element={<Rpa2 />} />
+                  <Route path="/miembros/rpa3" element={<Rpa3 />} />
+
 
                   <Route path="/miembros/infografia1" element={<Info1 />} />
                   <Route path="/miembros/infografia2" element={<Info2 />} />
+                  <Route path="/miembros/infografia3" element={<Info3 />} />
 
 
 
