@@ -16,7 +16,7 @@ const InfografiaDetalle = () => {
             <Row className="justify-content-center mt-3 pb-3">
                 <div className="video-container">
                     <iframe 
-                        src="https://www.canva.com/design/DAGJX9Xkny0/meNho6mA2L3j_Gq7nXveCg/view?embed" 
+                        src="https://www.canva.com/design/DAGIZ3gGUC8/lMLrRnIDIgEUWptCUr-LVQ/view?embed" 
                         title="PDF Viewer" 
                         width="90%" 
                         height="1000px" 
