@@ -149,7 +149,7 @@ const Desafios = () => {
                         <Card.Img variant="top" src={desafio_sample} />
                         <Card.Body>
                             <Card.Title>Oportunidad de mejora</Card.Title>
-                            {/* <Button variant="primary" onClick={() => navigate("lecciones")}>Ver</Button> */}
+                            <Button variant="primary" onClick={() => navigate("oportunidades")}>Ver</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -158,7 +158,7 @@ const Desafios = () => {
                         <Card.Img variant="top" src={desafio_sample} />
                         <Card.Body>
                             <Card.Title>Informe</Card.Title>
-                            {/* <Button variant="primary" onClick={() => navigate("lecciones")}>Ver</Button> */}
+                            <Button variant="primary" onClick={() => navigate("tpi")}>Ver</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -167,7 +167,7 @@ const Desafios = () => {
                         <Card.Img variant="top" src={desafio_sample} />
                         <Card.Body>
                             <Card.Title>Infografia</Card.Title>
-                            {/* <Button variant="primary" onClick={() => navigate("lecciones")}>Ver</Button> */}
+                            <Button variant="primary" onClick={() => navigate("infogral")}>Ver</Button>
                         </Card.Body>
                     </Card>
                 </Col>

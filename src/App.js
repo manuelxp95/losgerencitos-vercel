@@ -10,6 +10,10 @@ import Desafio_d10 from "./components/Desafios/Desafio_d10";
 import Desafio_d11 from "./components/Desafios/Desafio_d11";
 import Desafio_d12 from "./components/Desafios/Desafio_d12";
 import Desafio_d13 from "./components/Desafios/Desafio_d13";
+import Lecciones from "./components/Desafios/lecciones";
+import Oportinidades from "./components/Desafios/oportunidades";
+
+
 import Visita_exp from "./components/Desafios/Visita_exp";
 
 import Miembros from "./components/Miembros/Miembros";
@@ -35,6 +39,8 @@ import Rpa3 from "./components/RPA/Rpa3";
 import Info1 from "./components/Infografias/Info1"
 import Info2 from "./components/Infografias/Info2"
 import Info3 from "./components/Infografias/Info3"
+import InfoGral from "./components/Infografias/InfoGral"
+
 
 
 import Alianza from "./components/Alianza/Alianza";
@@ -55,60 +61,64 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<HomePage/>}/>
+          <Route path="/" element={<HomePage />} />
 
-          <Route path="/miembros" element={<Miembros />}/>
-          <Route path="/miembros/miembrodetalle" element={<MiembrosDet />}/>
-          <Route path="/miembros/miembrodetalle2" element={<MiembrosDet2 />}/>
-          <Route path="/miembros/miembrodetalle3" element={<MiembrosDet3 />}/>
+          <Route path="/miembros" element={<Miembros />} />
+          <Route path="/miembros/miembrodetalle" element={<MiembrosDet />} />
+          <Route path="/miembros/miembrodetalle2" element={<MiembrosDet2 />} />
+          <Route path="/miembros/miembrodetalle3" element={<MiembrosDet3 />} />
 
-          <Route path="/desafios" element={<Desfios/>}/>
-          <Route path="/desafios/desafiodetalle4" element={<Desafio_d4 />}/>
-          <Route path="/desafios/desafiodetalle5" element={<Desafio_d5 />}/>
-          <Route path="/desafios/desafiodetalle6" element={<Desafio_d6 />}/>
-          <Route path="/desafios/desafiodetalle7" element={<Desafio_d7 />}/>
-          <Route path="/desafios/desafiodetalle9" element={<Desafio_d9 />}/>
-          <Route path="/desafios/desafiodetalle10" element={<Desafio_d10 />}/>
-          <Route path="/desafios/desafiodetalle11" element={<Desafio_d11 />}/>
-          <Route path="/desafios/desafiodetalle12" element={<Desafio_d12 />}/>
-          <Route path="/desafios/desafiodetalle13" element={<Desafio_d13 />}/>
-
-
-
-                  <Route path="/mapmentales" element={<MMentales />} />
-                  <Route path="/mapmentales/mmentales1" element={<MMentales_u1 />} />
-                  <Route path="/mapmentales/mmentales2" element={<MMentales_u2 />} />
+          <Route path="/desafios" element={<Desfios />} />
+          <Route path="/desafios/desafiodetalle4" element={<Desafio_d4 />} />
+          <Route path="/desafios/desafiodetalle5" element={<Desafio_d5 />} />
+          <Route path="/desafios/desafiodetalle6" element={<Desafio_d6 />} />
+          <Route path="/desafios/desafiodetalle7" element={<Desafio_d7 />} />
+          <Route path="/desafios/desafiodetalle9" element={<Desafio_d9 />} />
+          <Route path="/desafios/desafiodetalle10" element={<Desafio_d10 />} />
+          <Route path="/desafios/desafiodetalle11" element={<Desafio_d11 />} />
+          <Route path="/desafios/desafiodetalle12" element={<Desafio_d12 />} />
+          <Route path="/desafios/desafiodetalle13" element={<Desafio_d13 />} />
+          <Route path="/desafios/lecciones" element={<Lecciones />} />
+          <Route path="/desafios/oportunidades" element={<Oportinidades />} />
+          <Route path="/desafios/tpi" element={<Tpi />} />
+          <Route path="/desafios/infogral" element={<InfoGral />} />
 
 
-                  <Route path="/rutaprendi" element={<RutAprendizaje />} />
-                  <Route path="/rutaprendi/ruta_d1" element={<Ruta_d1 />} />
-                  <Route path="/rutaprendi/ruta_d2" element={<Ruta_d2 />} />
-                  <Route path="/rutaprendi/ruta_d3" element={<Ruta_d3 />} />
 
-                  <Route path="/alianzas" element={<Alianza />} />
-
-                  <Route path="/apuntes" element={<Apuntes />} />
-
-                  <Route path="/Visitas" element={<Visitas />} />
-                  <Route path="/Visitas/visitaexp" element={<Visita_exp />}/>
-                  <Route path="/Visitas/visitalh" element={<Visitas_lh />}/>
+          <Route path="/mapmentales" element={<MMentales />} />
+          <Route path="/mapmentales/mmentales1" element={<MMentales_u1 />} />
+          <Route path="/mapmentales/mmentales2" element={<MMentales_u2 />} />
 
 
-                  <Route path="/tpi" element={<Tpi />} />
+          <Route path="/rutaprendi" element={<RutAprendizaje />} />
+          <Route path="/rutaprendi/ruta_d1" element={<Ruta_d1 />} />
+          <Route path="/rutaprendi/ruta_d2" element={<Ruta_d2 />} />
+          <Route path="/rutaprendi/ruta_d3" element={<Ruta_d3 />} />
 
-                  <Route path="/miembros/rpa1" element={<Rpa1 />} />
-                  <Route path="/miembros/rpa2" element={<Rpa2 />} />
-                  <Route path="/miembros/rpa3" element={<Rpa3 />} />
+          <Route path="/alianzas" element={<Alianza />} />
+
+          <Route path="/apuntes" element={<Apuntes />} />
+
+          <Route path="/Visitas" element={<Visitas />} />
+          <Route path="/Visitas/visitaexp" element={<Visita_exp />} />
+          <Route path="/Visitas/visitalh" element={<Visitas_lh />} />
 
 
-                  <Route path="/miembros/infografia1" element={<Info1 />} />
-                  <Route path="/miembros/infografia2" element={<Info2 />} />
-                  <Route path="/miembros/infografia3" element={<Info3 />} />
+          <Route path="/tpi" element={<Tpi />} />
+
+          <Route path="/miembros/rpa1" element={<Rpa1 />} />
+          <Route path="/miembros/rpa2" element={<Rpa2 />} />
+          <Route path="/miembros/rpa3" element={<Rpa3 />} />
+
+
+          <Route path="/miembros/infografia1" element={<Info1 />} />
+          <Route path="/miembros/infografia2" element={<Info2 />} />
+          <Route path="/miembros/infografia3" element={<Info3 />} />
 
 
 
         </Routes>
-      </BrowserRouter>            
+      </BrowserRouter>
     </div>
   );
 }
